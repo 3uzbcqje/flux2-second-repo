@@ -2,5 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: flux2-second-repo
 resources:
-  - namespace: flux2-second-repo
+  - namespace.yaml
   - configmap.yaml
