@@ -1,3 +1,5 @@
+WARNING: Do not run `flux bootstrap` with this repo. Just do these manual steps to connect it.
+
 export GITHUB_TOKEN=REDACTED
 
 flux create secret git flux2-second-repo \
